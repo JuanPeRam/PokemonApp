@@ -1,0 +1,19 @@
+#root {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokemon-data-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
+  gap: 30px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.pokemon-img{
+  width: 150px;
+}
